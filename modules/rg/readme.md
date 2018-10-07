@@ -1,0 +1,2 @@
+# rg module
+## Resource Group
