@@ -23,6 +23,7 @@ resource "azurerm_virtual_machine" "custom-linux-vm" {
     caching           = "${var.os-disk-caching}"
     create_option     = "${var.os-disk-create-option}"
     managed_disk_type = "${var.os-disk-type}"
+    disk_size_gb      = "${var.os-disk-size-gb}"
   }
 
   os_profile {

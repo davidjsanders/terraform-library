@@ -11,6 +11,7 @@ variable "os-disk-name" {}
 variable "os-disk-caching" {}
 variable "os-disk-create-option" {}
 variable "os-disk-type" {}
+variable "os-disk-size-gb" { default = "32"}
 variable "adminuser" {}
 variable "adminpass" {}
 variable "ssh-key-path" {
