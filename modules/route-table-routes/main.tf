@@ -6,7 +6,7 @@
 # Purpose:        Create an Azure route table
 # Created on:     19 May 2018
 # Created by:     David Sanders
-# Creator email:  david.sanders2@loblaw.ca
+# Creator email:  dsanderscanada@gmail.com
 # Repository:     https://github.com/dsandersAzure/tf-learning
 #
 # -------------------------------------------------------------------
