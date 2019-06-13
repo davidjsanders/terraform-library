@@ -1,4 +1,4 @@
-resource "azurerm_virtual_machine" "standard-vm" {
+resource "azurerm_virtual_machine" "standard-linux-vm-datadisk" {
   name                = "${var.name}"
   location            = "${var.location}"
   resource_group_name = "${var.resource-group-name}"
