@@ -14,6 +14,10 @@ variable "os-disk-name" {}
 variable "os-disk-caching" {}
 variable "os-disk-create-option" {}
 variable "os-disk-type" {}
+variable "os-disk-size-gb" { 
+  default = 32 
+}
+
 variable "data-disk-name" {}
 variable "data-disk-id" {}
 variable "data-disk-create-option" {
