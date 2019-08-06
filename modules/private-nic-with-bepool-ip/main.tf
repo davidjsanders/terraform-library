@@ -8,7 +8,6 @@ resource "azurerm_network_interface" "nic-with-bepool-ip" {
     subnet_id                               = "${var.subnet-id}"
     private_ip_address_allocation           = "Static"
     private_ip_address                      = "${var.ip-address}"
-    load_balancer_backend_address_pools_ids = ["${var.bepool-ids}"]
   }
 
   tags = "${var.tags}"

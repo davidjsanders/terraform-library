@@ -4,7 +4,6 @@ resource "azurerm_subnet" "subnets" {
   virtual_network_name      = "${var.vnet-target-name}"
 
   address_prefix    = "${var.address-prefix}"
-  route_table_id    = "${var.route-table-id}"
   service_endpoints = "${var.service-endpoints}"
 
   # TODO

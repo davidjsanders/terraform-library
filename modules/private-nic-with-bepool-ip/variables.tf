@@ -6,8 +6,6 @@ variable "allocation" {}
 
 variable "ip-address" {}
 
-variable "bepool-ids" {}
-
 variable "tags" {
     type = "map"
     default = {
