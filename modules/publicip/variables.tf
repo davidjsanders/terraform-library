@@ -1,6 +1,8 @@
 variable "resource-group-name" {}
 variable "name" {}
-variable "public-ip-address-allocation" {}
+variable "allocation-method" {
+    default = "Static"
+}
 variable "domain-name-label" {}
 variable "sku" {}
 variable "location" {}
